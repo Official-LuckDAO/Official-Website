@@ -1,0 +1,320 @@
+body{
+    width: 100%;
+    background: linear-gradient(212.57deg, #422982 11.95%, #33175E 35.73%, #422982 67.65%);
+}
+
+/* navibar */
+.navbar-default {
+    background-color:transparent;
+    border-color: transparent;
+}
+#logo{
+    width: 116.52px;
+    height: 74.44px;
+    margin-left: 162px;
+    margin-top: 66px;
+}
+.navbar-right{
+
+    margin-top: 84px;
+}
+.selecter{
+    
+    margin-right: 50px;
+    margin-top: 8px;
+    float: left;
+}
+.selecter select {
+    width: 76px;
+    height: 38px;
+    border-color: transparent;
+    background-color: #36005D;
+    border-radius: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #AAAAAA;
+}
+.selecter select option{
+    margin-left: 3px;
+
+    border-color: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #AAAAAA;
+}
+.luckpaper{
+    float: left;
+    width: 165px;
+    height: 27px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.luckpaper a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.luckpaper a:hover{
+    text-decoration-color: #199ffa;
+}
+.mintbtn{
+    float: right;
+    margin-top: -5px;
+    margin-right: 120px;
+    width: 161px;
+    height: 61px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.mintbtn:hover {
+    background-color: white;
+}
+.mintbtn front{
+    width: 76px;
+    height: 34px;
+    left: 1640px;
+    top: 86px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.mintbtn:hover front{
+    color: black;
+}
+
+
+/* video */
+.videoframe{
+    margin-top: 50px;
+    top: 0;            
+    bottom: 0;            
+    left: 0;            
+    right: 0;            
+    margin: auto;   
+    width: 80%;
+    height: 20%;
+    background: #36005D;
+    border: 2px solid;
+    border-image: linear-gradient(252.58deg,#F3AF55, rgba(166, 63, 0, 0),rgba(228, 154, 69, 0.808511)) 8 48 90;
+
+}
+.embed-responsive-16by9 {
+    padding-bottom: 40%;
+}
+
+
+/* title & info */
+.titleninfo{
+    width: 70%;
+    height: 230px;
+    text-align: center;
+    top: 0;            
+    bottom: 0;            
+    left: 0;            
+    right: 0;            
+    margin: 50px auto auto auto; 
+}
+.titleninfo .title1{
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 89px;
+    line-height: 108px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.titleninfo .title2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 89px;
+    line-height: 108px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.titleninfo .info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* social icon */
+.socialicon{
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    top: 0;            
+    bottom: 0;            
+    left: 0;            
+    right: 0;            
+    margin: 50px auto auto auto; 
+}
+.socialicon a{
+    margin: 20px;
+}
+
+
+/* goldenline */
+.goldenline{
+    width: 80%;
+    height: 0px;
+    top: 0;            
+    bottom: 0;            
+    left: 0;            
+    right: 0;            
+    margin: auto; 
+    border: 8px solid;
+    border-image: linear-gradient(90deg, rgba(66, 41, 130, 0), rgba(228, 154, 69, 0.808511), rgba(66, 41, 130, 0)) 0 50 100;
+}
+
+
+/* counter */
+.counter{
+    width: 80%;
+    height: 150px;
+    top: 0;            
+    bottom: 0;            
+    left: 0;            
+    right: 0;    
+    margin: 60px auto auto auto; 
+}
+.counter .counterdetail{
+    width: 25%;
+    height: 150px;
+    text-align: center;
+}
+.counter .counterdetail .number{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+.counter .counterdetail .counterintro{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 48px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+/* Ecosystem */
+.ecosystem{
+    margin-top: 150px;
+    margin-left: 13%;
+    width: 750px;
+    height: 600px;
+    float: left;
+}
+.ecosystemtitle{
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.ecosystem2title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+.ecosystemdetail{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+
+/* magicbox */
+.magicbox{
+    float: right;
+    margin-right: 140px;
+}
+.magicbox img{
+    width: 706px;
+    height: 809px;
+}
+
+
+/* footer */
+.footer{
+    float: left;
+    margin-top: 185px;
+    width: 100%;
+    height: 150px;
+    background: #81D8D0;
+}
+.footer .footerluckpaper{
+    float: left;
+    margin-top: 50px;
+    margin-left: 145px;
+}
+.footerluckpaper a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.footer .footercontact{
+    margin-top: 100px;
+    float: left;
+    margin-left: -158px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.footercontact a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.footersocialicon{
+    float: right;
+    margin-top: 78px;
+    margin-right: 160px;
+}
+.footersocialicon a{
+    margin-right: 30px;
+}
