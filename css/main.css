@@ -9,10 +9,9 @@ body{
     border-color: transparent;
 }
 #logo{
-    width: 116.52px;
-    height: 74.44px;
-    margin-left: 162px;
-    margin-top: 66px;
+    width: 200px;
+    margin-left: 120px;
+    margin-top: 70px;
 }
 .navbar-right{
     
@@ -105,7 +104,7 @@ body{
     right: 0;            
     margin: auto;   
     width: 50%;
-    height: 20%;
+    height: 15%;
     background: #36005D;
     border: 2px solid;
     border-image: linear-gradient(252.58deg,#F3AF55, rgba(166, 63, 0, 0),rgba(228, 154, 69, 0.808511)) 8 48 90;
