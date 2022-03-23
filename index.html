@@ -17,29 +17,41 @@
         <!-- navibar -->
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid"> 
-                
                 <div class="navbar-header">
-                    <a href="./index.html"><img id="logo" alt="Brand" src="./img/LD_logonew.svg"></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="./index.html" ><img id="logo" class="img-responsive" alt="Brand" src="./img/head_logo.svg"></a>
                 </div>
-
-                <div class="nav navbar-nav navbar-right">
-
-                    <div class="selecter">
-                        <select>
-                            <option value ="en">en</option>
-                            <!-- <option value ="cn">cn</option> -->
-                        </select>
-                    </div>
-
-                    <div class="luckpaper">
-                        <a href="./paper.html">Lucky Paper v.1</a>
-                    </div>
-
-                    <a href="#">
-                        <button class="mintbtn">
-                            <front>MINT</front>
-                        </button>
-                    </a>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse" style="border-top-width: 0px; height: 0px;">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <div class="selecter">
+                                <select>
+                                    <option value ="en">en</option>
+                                    <!-- <option value ="cn">cn</option> -->
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="luckpaper">
+                                <a href="./paper.html">Lucky Paper v.1</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#">
+                                    <button class="mintbtn">
+                                        <front>MINT</front>
+                                    </button>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -51,8 +63,10 @@
 
         <!-- title & info -->
         <div class="titleninfo">
-            <front class="title1">Luck</front><front class="title2">DAO</rfont>
-            <p class="info">LuckDAO is a DAO (decentralized autonomous organization) that helps lucky people realize their dreams in the form of multiple rounds of lottery.</p>
+            <img class="titleimg img-responsive" src="./img/title_logo.svg" alt="">
+            <div class="info">
+                LuckDAO is a DAO (decentralized autonomous organization) that helps lucky people realize their dreams in the form of multiple rounds of lottery.
+            </div>
         </div>
 
         <!-- social icon -->
@@ -66,36 +80,45 @@
         <div class="goldenline"></div>
 
         <!-- counter -->
-        <div class="counter">
-            <div class="counterdetail col-xs-6 col-md-4 bounceInDown bg-green animated" style="visibility: visible; animation-name: flipInX; animation-delay: 1s;">
-                <p class="number">1000+</p>
-                <p class="counterintro">Lorems</p>
+        <div class="container">
+            <div class="row" >
+                <div class="counter">
+                    <div class="counterdetail col-xs-6 col-sm-3 bounceInDown bg-green animated" style="visibility: visible; animation-name: flipInX; animation-delay: 1s;">
+                        <p class="number">1000+</p>
+                        <p class="counterintro">Lorems</p>
+                    </div>
+                    <div class="counterdetail col-xs-6 col-sm-3 bounceInDown bg-green animated"  style="visibility: visible; animation-name: flipInX; animation-delay: 1.2s;">
+                        <p class="number">1000+</p>
+                        <p class="counterintro">Lorems</p>
+                    </div>
+                    <div class="counterdetail col-xs-6 col-sm-3 bounceInDown bg-green animated" style="visibility: visible; animation-name: flipInX; animation-delay: 1.4s;">
+                        <p class="number">1000+</p>
+                        <p class="counterintro">Lorems</p>
+                    </div>
+                    <div class="counterdetail col-xs-6 col-sm-3 bounceInDown bg-green animated" style="visibility: visible; animation-name: flipInX; animation-delay: 1.6s;">
+                        <p class="number">1000+</p>
+                        <p class="counterintro">Lorems</p>
+                    </div>
+                </div>
             </div>
-            <div class="counterdetail col-xs-6 col-md-4 bounceInDown bg-green animated"  style="visibility: visible; animation-name: flipInX; animation-delay: 1.2s;">
-                <p class="number">1000+</p>
-                <p class="counterintro">Lorems</p>
-            </div>
-            <div class="counterdetail col-xs-6 col-md-4 bounceInDown bg-green animated" style="visibility: visible; animation-name: flipInX; animation-delay: 1.4s;">
-                <p class="number">1000+</p>
-                <p class="counterintro">Lorems</p>
-            </div>
-            <div class="counterdetail col-xs-6 col-md-4 bounceInDown bg-green animated" style="visibility: visible; animation-name: flipInX; animation-delay: 1.6s;">
-                <p class="number">1000+</p>
-                <p class="counterintro">Lorems</p>
+        </div>
+
+        <div class="container">
+            <div class="row" >
+                <!-- Ecosystem -->
+                <div class="ecosystem col-xs-6 col-sm-3 rollIn bg-red animated" style="visibility: visible; animation-delay: 1.2s; animation-name: rollIn;">
+                    <p class="ecosystemtitle">Ecosystem</p>
+                    <p class="ecosystem2title">In LuckDAO everyone is a winner!</p>
+                    <p class="ecosystemdetail">LuckDAO will send each round of the lottery to Mint users in the form of an NFT mystery box. Each NFT mystery box is a lottery ticket. When the NFT mystery box is opened, a winner will be born. LuckDAO will give the funds obtained from the NFT Mint to the winners in either ETH, Lucky Coin, or other equivalent to the prizes. If the funds obtained by LuckDAO in each round of Mint do not reach the value of the corresponding prizes, 50% of the total funds will be returned to the winners. Everyone will receive an airdrop of Lucky Coin, which can be used for the next round of Mystery Boxes.</p>
+                </div>
+
+                <!-- magicbox -->
+                <div class="magicbox col-xs-6 col-sm-3">
+                    <img src="./img/Magic_Box.png" alt="magicbox">
+                </div>
             </div>
         </div>
         
-        <!-- Ecosystem -->
-        <div class="ecosystem rollIn bg-red animated" style="visibility: visible; animation-delay: 1.2s; animation-name: rollIn;">
-            <p class="ecosystemtitle">Ecosystem</p>
-            <p class="ecosystem2title">In LuckDAO everyone is a winner!</p>
-            <p class="ecosystemdetail">LuckDAO will send each round of the lottery to Mint users in the form of an NFT mystery box. Each NFT mystery box is a lottery ticket. When the NFT mystery box is opened, a winner will be born. LuckDAO will give the funds obtained from the NFT Mint to the winners in either ETH, Lucky Coin, or other equivalent to the prizes. If the funds obtained by LuckDAO in each round of Mint do not reach the value of the corresponding prizes, 50% of the total funds will be returned to the winners. Everyone will receive an airdrop of Lucky Coin, which can be used for the next round of Mystery Boxes.</p>
-        </div>
-
-        <!-- magicbox -->
-        <div class="magicbox">
-            <img src="./img/Magic_Box.png" alt="magicbox">
-        </div>
 
         <!-- footer -->
         <div class="footer">
