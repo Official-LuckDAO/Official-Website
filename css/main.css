@@ -97,6 +97,14 @@ body{
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     border-color: transparent;
 }
+@media screen and (max-width:1343px){
+    .mintbtn {
+        background-color: #81D8D0 !important;
+    }
+    .mintbtn front{
+        color: black;
+    }
+}
 @media screen and (max-width: 868px) {
     .navbar-right{
         margin-top: 90px !important;
@@ -111,10 +119,10 @@ body{
 }
 @media screen and (max-width: 765px) {
     #logo{
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
         margin-left: 40px;
-        margin-top: 20px;
+        margin-top: 25px;
     }
     .navbar-right li{
         margin-left: -10px;
