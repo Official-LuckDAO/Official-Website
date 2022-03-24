@@ -294,7 +294,7 @@ body{
         font-family: 'Montserrat';
         font-style: bold;
         font-weight: bold;
-        font-size: 50px;
+        font-size: 55px;
         line-height: 60px;
         color: #FFFFFF;
     }
@@ -302,7 +302,7 @@ body{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 300;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 48px;
         /* identical to box height */
         color: #FFFFFF;
@@ -321,7 +321,7 @@ body{
 .ecosystemtitle{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 73px;
     line-height: 73px;
     color: #FFFFFF;
@@ -357,15 +357,15 @@ body{
     }
     .ecosystemtitle{
         line-height: 50px;
-        font-size: 55px;
+        font-size: 60px;
     }
     .ecosystem2title{
         line-height: 50px;
-        font-size: 30px;
+        font-size: 35px;
     }
     .ecosystemdetail{
         line-height: 35px;
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
@@ -412,8 +412,9 @@ body{
     margin-left: 145px;
 }
 .footerluckpaper a{
+    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #000000;
@@ -422,14 +423,16 @@ body{
     margin-top: 125px;
     float: left;
     margin-left: -158px;
+    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #000000;
 }
 
 .footercontact a{
+    font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
